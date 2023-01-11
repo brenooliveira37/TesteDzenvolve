@@ -30,9 +30,9 @@
             </div>  
         </nav>
         <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
+        $servername = "107.180.57.185";
+        $username = "dz_dev";
+        $password = "p?%3DY?#*LBW";
         $dbname = "dz_dev_test";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -48,7 +48,7 @@
         if ($result->num_rows > 0) {
             ?>
             <table class="table thead-light table-hover">
-                <tr style="font-size: 20px;" class="bg-light">
+                <tr style="font-size: 16px;" class="bg-light">
                     <td>Código</td>
                     <td>Nome</td>
                     <td>Sexo</td>

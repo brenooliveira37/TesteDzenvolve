@@ -31,13 +31,9 @@
             </div>  
         </nav>
         <?php
-//        $servername = "107.180.57.185";
-//        $username = "dz_dev";
-//        $password = "p?%3DY?#*LBW";
-//        $dbname = "dz_dev_test";
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
+        $servername = "107.180.57.185";
+        $username = "dz_dev";
+        $password = "p?%3DY?#*LBW";
         $dbname = "dz_dev_test";
 
         $conn = new mysqli($servername, $username, $password, $dbname);

@@ -9,9 +9,9 @@
         <?php
         $id = isset($_GET["codigo"]) ? $_GET["codigo"] : " ";
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
+        $servername = "107.180.57.185";
+        $username = "dz_dev";
+        $password = "p?%3DY?#*LBW";
         $dbname = "dz_dev_test";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
